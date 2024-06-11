@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
   <a href="https://app.daily.dev/clintxx"><img src="https://api.daily.dev/devcards/v2/iEoZIHU8CbJVAMLWsvYqC.png?r=dck&type=default" width="356" alt="Clint's Dev Card"/></a>
 </div>
 
