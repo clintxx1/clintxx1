@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Updated to the latest version using Node.js 20
+        uses: actions/checkout@v4
 
       - name: Update README with the date
         run: |
@@ -20,9 +20,11 @@ jobs:
           echo "Last updated: $date" > README.md
 
       - name: Commit changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add README.md
           git commit -m "Updated README with the current date"
-          git push
+          git push https://github-actions:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
