@@ -25,6 +25,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://github-actions:${GH_TOKEN}@github.com/${{ github.repository }}.git
           git add README.md
           git commit -m "Updated README with the current date"
-          git push https://github-actions:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push origin HEAD:${{ github.ref }}
