@@ -1,6 +1,6 @@
 # @clintxx
 
-Software developer @ <a href="https://www.freshclinics.com/en-au/?gad_source=1&gclid=CjwKCAjwps-zBhAiEiwALwsVYWKB-I1J7L-gnHOgwcIKv-feC_XIKNaF9KmN6ZkXZWIB20CIHcu1mxoCwJEQAvD_BwE" target="_blank" rel="noopener noreferrer">Fresh Clinics</a>
+Software developer @ <a target="_blank" href="https://www.freshclinics.com/en-au/">Fresh Clinics</a>
 
 ---
 
