@@ -1,6 +1,6 @@
 # @clintxx
 
-Software developer @ <a href="https://www.freshclinics.com/en-au/" target="FRESH">Fresh Clinics</a>
+Software developer @ <a href="https://www.freshclinics.com/en-au/" target="FRESH">Fresh Clinics</a> <br />
 GitLab Profile: https://gitlab.freshclinics.com.au/clintx
 ---
 
